@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"log"
 	"os"
-
 	"github.com/cruxia/go/models"
 	"github.com/cruxia/go/utils"
 	"gorm.io/driver/postgres"

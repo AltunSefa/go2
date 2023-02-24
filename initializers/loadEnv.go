@@ -2,7 +2,6 @@ package initializers
 
 import (
 	"time"
-
 	"github.com/spf13/viper"
 )
 

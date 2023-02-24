@@ -4,10 +4,8 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
-
 	"fmt"
 	"log"
-
 	"github.com/cruxia/go/routes/authRoutes"
 	"github.com/cruxia/go/routes/book"
 	"github.com/cruxia/go/routes/user"

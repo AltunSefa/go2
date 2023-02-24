@@ -8,6 +8,7 @@ import (
 
 func SetupRoutes( micro *fiber.App) {
 
+	
 	micro.Get("/book", middleware.DeserializeUser, controllers.GetBook)
 	micro.Post("/book", middleware.DeserializeUser, controllers.CreateNote)
 }

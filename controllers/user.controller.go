@@ -33,7 +33,6 @@ func UpdateUser(c *fiber.Ctx) error {
 	if *user.ID == uuid.Nil {
 		return c.Status(404).JSON(fiber.Map{"status": "error", "message": "No note present", "data": nil})
 	}
-
 	// Store the body containing the updated data and return error if encountered
 	var updateUserData updateUser
 	err := c.BodyParser(&updateUserData)

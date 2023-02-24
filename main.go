@@ -12,6 +12,7 @@ func init() {
 	if err != nil {
 		log.Fatalln("Failed to load environment variables! \n", err.Error())
 	}
+	
 	initializers.ConnectDB(&config)
 }
 

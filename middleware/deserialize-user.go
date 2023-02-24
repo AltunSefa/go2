@@ -2,7 +2,6 @@ package middleware
 
 import (
 	"strings"
-
 	"github.com/gofiber/fiber/v2"
 	"github.com/cruxia/go/initializers"
 	"github.com/cruxia/go/models"

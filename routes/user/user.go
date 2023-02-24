@@ -8,6 +8,7 @@ import (
 
 func SetupRoutes( micro *fiber.App) {
 
+	
 	micro.Get("/users/me", middleware.DeserializeUser, controllers.GetMe)
 	micro.Put("/users/:userId", middleware.DeserializeUser, controllers.UpdateUser)
 }

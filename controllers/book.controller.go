@@ -10,7 +10,6 @@ import (
 
 func GetBook(c *fiber.Ctx) error {
 	var books []models.Book
-
 	// find all notes in the database
 	
 	initializers.DB.Find(&books)

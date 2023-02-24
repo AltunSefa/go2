@@ -9,6 +9,7 @@ import (
 
 func SetupRoutes( micro *fiber.App) {
 
+	
 	micro.Route("/auth", func(router fiber.Router) {
 		router.Post("/register", controllers.SignUpUser)
 		router.Post("/login", controllers.SignInUser)
